@@ -22,7 +22,7 @@
     <ImageView
       android:id="@+id/imageview_poster"
       android:layout_width="wrap_content"
-      android:layout_height="150dp"
+      android:layout_height="250dp"
       android:layout_marginStart="16dp"
       android:adjustViewBounds="true"
       android:contentDescription="@string/content_description_poster"
@@ -95,6 +95,7 @@
       android:adjustViewBounds="false"
       android:background="@null"
       android:contentDescription="@string/content_description_add_playlist"
+      android:visibility="gone"
       app:layout_constraintBottom_toBottomOf="@+id/textview_movie_title"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintTop_toTopOf="@+id/textview_movie_title"
