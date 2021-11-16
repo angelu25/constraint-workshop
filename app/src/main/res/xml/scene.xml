@@ -31,6 +31,57 @@
       motion:layout_constraintBottom_toBottomOf="@+id/imageview_hero"
       motion:layout_constraintEnd_toEndOf="parent"
       motion:layout_constraintTop_toBottomOf="@+id/imageview_hero"  />
+    <Constraint
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:layout_width="0dp"
+      motion:layout_constraintTop_toBottomOf="@+id/imageview_hero"
+      motion:layout_constraintEnd_toStartOf="@+id/imageview_poster"
+      android:id="@+id/textview_movie_title" />
+    <Constraint
+      android:layout_marginEnd="16dp"
+      android:layout_height="wrap_content"
+      motion:layout_constraintEnd_toEndOf="parent"
+      android:layout_width="wrap_content"
+      android:id="@+id/button_add_to_playlist"
+      motion:layout_constraintTop_toBottomOf="@+id/imageview_poster"
+      android:layout_marginTop="16dp" />
+    <Constraint
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:id="@+id/textview_movie_details"
+      motion:layout_constraintTop_toBottomOf="@+id/textview_movie_title"
+      motion:layout_constraintEnd_toEndOf="@+id/textview_movie_title" />
+    <Constraint
+      android:id="@+id/button_rent"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      motion:layout_constraintStart_toStartOf="parent"
+      motion:layout_constraintEnd_toStartOf="@+id/button_buy"
+      motion:layout_constraintTop_toTopOf="@+id/button_buy"
+      motion:layout_constraintBottom_toBottomOf="@+id/button_buy" />
+    <Constraint
+      android:id="@+id/button_rent"
+      android:layout_width="wrap_content"
+      android:layout_height="50dp"
+      motion:layout_constraintStart_toStartOf="parent"
+      motion:layout_constraintEnd_toStartOf="@+id/button_buy"
+      motion:layout_constraintTop_toTopOf="@+id/button_buy"
+      motion:layout_constraintBottom_toBottomOf="@+id/button_buy" />
+    <Constraint
+      android:id="@+id/button_buy"
+      motion:layout_constraintEnd_toEndOf="@+id/button_add_to_playlist"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="8dp"
+      motion:layout_constraintTop_toBottomOf="@+id/button_add_to_playlist" />
+    <Constraint
+      android:id="@+id/button_buy"
+      motion:layout_constraintEnd_toEndOf="@+id/button_add_to_playlist"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="8dp"
+      motion:layout_constraintTop_toBottomOf="@+id/button_add_to_playlist" />
   </ConstraintSet>
 
 </MotionScene>
